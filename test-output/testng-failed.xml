@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="databaseTesting.databaseTesting.AppTest">
+      <class name="databaseTesting.databaseTesting.Test2indatabase">
         <methods>
-          <include name="AddNewCustomer"/>
-          <include name="DeleteCustomer"/>
-          <include name="mtSetup"/>
-          <include name="UpdateCustomerInfo"/>
-          <include name="ReadTheUpdatedData"/>
+          <include name="mySetup"/>
+          <include name="ReadTheUpdateCustomer"/>
         </methods>
-      </class> <!-- databaseTesting.databaseTesting.AppTest -->
+      </class> <!-- databaseTesting.databaseTesting.Test2indatabase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

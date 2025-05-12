@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-12T23:29:59 EET" name="Default suite" finished-at="2025-05-12T23:30:02 EET" duration-ms="3016">
+  <suite started-at="2025-05-13T01:36:09 EET" name="Default suite" finished-at="2025-05-13T01:36:26 EET" duration-ms="17097">
     <groups>
     </groups>
-    <test started-at="2025-05-12T23:29:59 EET" name="Default test" finished-at="2025-05-12T23:30:02 EET" duration-ms="3016">
-      <class name="databaseTesting.databaseTesting.AppTest">
-        <test-method is-config="true" signature="mtSetup()[pri:0, instance:databaseTesting.databaseTesting.AppTest@65fe9e33]" started-at="2025-05-12T23:29:59 EET" name="mtSetup" finished-at="2025-05-12T23:30:02 EET" duration-ms="2693" status="PASS">
+    <test started-at="2025-05-13T01:36:09 EET" name="Default test" finished-at="2025-05-13T01:36:26 EET" duration-ms="17097">
+      <class name="databaseTesting.databaseTesting.Test3indatabase">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:databaseTesting.databaseTesting.Test3indatabase@44040454]" started-at="2025-05-13T01:36:09 EET" name="mySetup" finished-at="2025-05-13T01:36:26 EET" duration-ms="16954" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mtSetup -->
-        <test-method signature="AddNewCustomer()[pri:1, instance:databaseTesting.databaseTesting.AppTest@65fe9e33]" started-at="2025-05-12T23:30:02 EET" name="AddNewCustomer" finished-at="2025-05-12T23:30:02 EET" duration-ms="18" status="PASS">
+        </test-method> <!-- mySetup -->
+        <test-method signature="UpdateOffice()[pri:1, instance:databaseTesting.databaseTesting.Test3indatabase@44040454]" started-at="2025-05-13T01:36:26 EET" name="UpdateOffice" finished-at="2025-05-13T01:36:26 EET" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddNewCustomer -->
-        <test-method signature="UpdateCustomerInfo()[pri:2, instance:databaseTesting.databaseTesting.AppTest@65fe9e33]" started-at="2025-05-12T23:30:02 EET" name="UpdateCustomerInfo" finished-at="2025-05-12T23:30:02 EET" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UpdateCustomerInfo -->
-        <test-method signature="ReadTheUpdatedData()[pri:3, instance:databaseTesting.databaseTesting.AppTest@65fe9e33]" started-at="2025-05-12T23:30:02 EET" name="ReadTheUpdatedData" finished-at="2025-05-12T23:30:02 EET" duration-ms="260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReadTheUpdatedData -->
-        <test-method signature="DeleteCustomer()[pri:4, instance:databaseTesting.databaseTesting.AppTest@65fe9e33]" started-at="2025-05-12T23:30:02 EET" name="DeleteCustomer" finished-at="2025-05-12T23:30:02 EET" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DeleteCustomer -->
-      </class> <!-- databaseTesting.databaseTesting.AppTest -->
+        </test-method> <!-- UpdateOffice -->
+      </class> <!-- databaseTesting.databaseTesting.Test3indatabase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
